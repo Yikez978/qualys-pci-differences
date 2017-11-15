@@ -9,7 +9,7 @@ import openpyxl
 from openpyxl import load_workbook
 
 
-parser = argparse.ArgumentParser(prog='boardmetrics')
+parser = argparse.ArgumentParser(prog='totalDifferenceMetrics')
 parser.add_argument('-D', '--Debug', help='Debug Mode assists in determining issues being raised by the script.', action='store_true')
 parser.add_argument('-L', '--lastScan', help='last months scan')
 parser.add_argument('-N', '--newScan', help='new months scan')
